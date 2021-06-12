@@ -2042,34 +2042,13 @@ input, select, textarea {
 					#main > .panel.intro .pic .arrow {
 						display: block;
 						position: absolute;
-						right: 0;
-						top: 50%;
-						margin-top: -1.4em;
-						width: 2em;
-						height: 2.55em;
-						background: #000;
-						background: rgba(0, 0, 0, 0.75);
-						color: #ffffff;
-						text-align: center;
-						line-height: 2.5em;
-						font-size: 1.5em;
-						z-index: 1;
-						-moz-transition: width .15s ease-in-out, padding-right .15s ease-in-out;
-						-webkit-transition: width .15s ease-in-out, padding-right .15s ease-in-out;
-						-ms-transition: width .15s ease-in-out, padding-right .15s ease-in-out;
-						transition: width .15s ease-in-out, padding-right .15s ease-in-out;
-					}
-
-					#main > .panel.intro .pic .arrow .left{
-						display: block;
-						position: absolute;
 						right: 3;
 						top: 50%;
 						margin-top: -1.4em;
-						width: 2em;
+						width: 2.7em;
 						height: 2.55em;
 						background: #000;
-						background: rgba(0, 0, 0, 0.75);
+						background: rgba(0, 0, 0, 0.3);
 						color: #ffffff;
 						text-align: center;
 						line-height: 2.5em;
@@ -2081,16 +2060,16 @@ input, select, textarea {
 						transition: width .15s ease-in-out, padding-right .15s ease-in-out;
 					}
 
-						#main > .panel.intro .pic .arrow:before {
-							position: relative;
-							padding-right: 0;
-							top: 0.125em;
-						}
+					#main > .panel.intro .pic .arrow:before {
+						position: relative;
+						padding-right: 0;
+						top: 0.125em;
+					}
 
-						#main > .panel.intro .pic .arrow span {
-							display: block;
-							text-indent: -9999px;
-						}
+					#main > .panel.intro .pic .arrow span {
+						display: block;
+						text-indent: -9999px;
+					}
 
 					#main > .panel.intro .pic:hover .arrow {
 						width: 3em;
