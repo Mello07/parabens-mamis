@@ -2060,7 +2060,7 @@ input, select, textarea {
 						transition: width .15s ease-in-out, padding-right .15s ease-in-out;
 					}
 
-					#main > .panel.intro .pic .arrowleft{
+					#main > .panel.intro .pic .arrow .left{
 						display: block;
 						position: absolute;
 						right: 3;
