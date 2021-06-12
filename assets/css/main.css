@@ -2045,7 +2045,28 @@ input, select, textarea {
 						right: 0;
 						top: 50%;
 						margin-top: -1.4em;
-						width: 2.55em;
+						width: 2em;
+						height: 2.55em;
+						background: #000;
+						background: rgba(0, 0, 0, 0.75);
+						color: #ffffff;
+						text-align: center;
+						line-height: 2.5em;
+						font-size: 1.5em;
+						z-index: 1;
+						-moz-transition: width .15s ease-in-out, padding-right .15s ease-in-out;
+						-webkit-transition: width .15s ease-in-out, padding-right .15s ease-in-out;
+						-ms-transition: width .15s ease-in-out, padding-right .15s ease-in-out;
+						transition: width .15s ease-in-out, padding-right .15s ease-in-out;
+					}
+
+					#main > .panel.intro .pic .arrow . left{
+						display: block;
+						position: absolute;
+						right: 3;
+						top: 50%;
+						margin-top: -1.4em;
+						width: 2em;
 						height: 2.55em;
 						background: #000;
 						background: rgba(0, 0, 0, 0.75);
